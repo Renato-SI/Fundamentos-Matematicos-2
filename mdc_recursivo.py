@@ -1,5 +1,7 @@
 # Questão 04
 def mdc(a, b):
+    if a == 0 and b == 0:
+        return 'indeterminado'
     if a < b:
         return mdc(b, a)
     # Caso Base
@@ -7,5 +9,4 @@ def mdc(a, b):
         return a
     # Recursiv.
     else:
-        return mdc(a, a % b)
-    
+        return mdc(b, a % b)
