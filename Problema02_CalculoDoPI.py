@@ -1,6 +1,6 @@
 import random
 # Atividade de Renato Rodrigues Barbosa Filho
-# Resolução do Problema 02 da Ficha de Exercícios
+# Resolução do Problema 02 da Ficha de Exercícios de Monte Carlo
 def gerar_cordenada():
     """
     Função responsável pela geração das cordenadas do problema (Dados da simulação)!
