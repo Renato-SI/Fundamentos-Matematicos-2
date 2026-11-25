@@ -1,10 +1,10 @@
 import random
 # Resolução do Problema 10 da Ficha de Exercícios de Monte Carlo
-def gerar_dna(qdt_pares):
+def gerar_dna(qtd_pares):
     """
     Responsável por gerar a sequencia de pares do DNA.
     """
-    pares = ([('A', 'T')] * qdt_pares) + ([('C', 'G')] * qdt_pares)
+    pares = ([('A', 'T')] * qtd_pares) + ([('C', 'G')] * qtd_pares)
     random.shuffle(pares)
 
     pares_sorteados = []
