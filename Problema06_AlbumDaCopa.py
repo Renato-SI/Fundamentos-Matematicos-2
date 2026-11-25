@@ -1,5 +1,5 @@
 import random
-
+# Resolução do Problema 06 da Ficha de Exercícios de Monte Carlo
 def pacote_figurinhas(qtd_por_pacote, tam_album):
     """
     Função que gera as Figurinhas de um pacotinho de acordo com a qtd no pacote
